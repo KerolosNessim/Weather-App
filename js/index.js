@@ -1,4 +1,3 @@
-
 let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 let monthes =["January","February","March","April","May","June","July","August","September","October","November","December"];
 let day = new Date().getDay();
@@ -9,7 +8,7 @@ searchInput.addEventListener('keyup', function () {
 })
 // function to get data
 async function getData(city) {
-    let res = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=99deb9c908b54f9f93d155505242304&q=${city}&days=3`);
+    let res = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=99deb9c908b54f9f93d155505242304&q=${city}&days=3`);
     let {current,location,forecast}  = await res.json();
     // console.log(current, location, forecast);
   displayCurrent(current, location.name)
