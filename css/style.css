@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(30, 32, 43);
+}
+/* start navbar style */
+.navbar {
+  padding: 40px 0px;
+  background-color: rgb(30, 32, 43);
+  color: white;
+}
+.navbar .navbar-brand img {
+  width: 65px;
+}
+.navbar .navbar-brand h1 {
+  font-size: 1em;
+  margin: 0;
+}
+.navbar .navbar-brand p {
+  font-size: 0.5em;
+  margin: 0;
+  color: #bfc1c8;
+}
+.navbar-expand-lg .navbar-nav .nav-item a {
+  color: white;
+  margin: 0px 10px;
+  padding: 0 25px;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.navbar-expand-lg .navbar-nav .nav-item .active {
+  color: rgb(0, 154, 216);
+  border: 2px solid rgb(0, 154, 216);
+  border-radius: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-item a:hover {
+  border-color: rgb(0, 154, 216);
+  color: rgb(0, 154, 216);
+}
+
+/* end navbar style */
+/* start of home style */
+.home {
+  background-image: url(../images/banner.png);
+  background-size: contain 50%;
+  background-repeat: no-repeat;
+}
+.home .container .searchbox {
+  background-color: rgb(30, 32, 43);
+}
+.home .container .searchbox input {
+  color: white;
+}
+.home .container .searchbox input::placeholder {
+  color: #bfc1c8cb;
+}
+.home .container .searchbox .form-control:focus {
+  box-shadow: none;
+}
+.home .container .row {
+  color: #bfc1c8;
+}
+.home .container .row .col-lg-4 .body {
+  height: 250px;
+}
+.home .container .row .col-lg-4 .body p {
+  font-size: 22px;
+}
+
+.home .container .row .col-lg-4 .body h3 {
+  font-size: 4rem;
+}
+.home .container .row .col-lg-4 .body img {
+  width: 20px;
+}
+.home .container .row #nextCard .body img{
+width: 4rem;
+}
+.home .container .row #afterNextCard .body img{
+width: 4rem;
+}
+.home .container .row .drakColor {
+  background-color: rgb(38, 41, 54);
+}
+.home .container .row .lightColor {
+  background-color: rgb(50, 53, 68);
+}
+
+/* end of home style */
+/* start of footer style */
+.footer{
+  background-color: rgb(50, 53, 68);
+}
+.footer .container .row .col-lg-8 .emailbox {
+  background-color: rgb(30, 32, 43);
+}
+.footer .container .row .col-lg-8 .emailbox input {
+  color: white;
+}
+.footer .container .row .col-lg-8 .emailbox input::placeholder {
+  color: #bfc1c8cb;
+}
+.footer .container .row .col-lg-8 .emailbox .form-control:focus {
+  box-shadow: none;
+}
+.footer .container .row .col-lg-3 .icons .icon{
+    width: 2.5rem;
+    height: 2.5rem;
+  background-color: rgb(30, 32, 43);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  transition: all .3s;
+}
+.footer .container .row .col-lg-3 .icons .icon i{
+  color: rgb(0, 154, 216);
+  transition: all .3s;
+}
+.footer .container .row .col-lg-3 .icons .icon:hover i{
+  color: white;
+}
+.footer .container .row .col-lg-3 .icons .icon:hover {
+ background-color: rgb(0, 154, 216);
+}
+.footer .container p{
+  color: #bfc1c8;
+}
+/* start of footer style */

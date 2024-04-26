@@ -1,0 +1,22 @@
+@media screen and (max-width:992px) {
+    .navbar-expand-lg .navbar-nav {
+        margin-top: 15px;
+        border-radius: 15px;
+        background-color: rgb(38, 41, 54);
+    }
+.navbar-expand-lg .navbar-nav li{
+    border-bottom: 1px solid  #bfc1c8;
+}
+
+.navbar-expand-lg .navbar-nav li:last-child{
+    border:none;
+}
+    .navbar-expand-lg .navbar-nav .nav-item a{
+    color: white;
+    margin: 20px 0px;
+     border: none;
+}
+.navbar-expand-lg .navbar-nav .nav-item .active{
+border: none;
+}
+}
